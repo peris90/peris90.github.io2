@@ -1,0 +1,418 @@
+body{
+	font-family: Century Gothic;
+	width: 100%;
+	margin:0px;
+	border:0px;
+	padding:0px;
+	position: relative;
+}
+
+header{
+	background-image: url(../images/footer-image.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 70px;
+	margin-top: -10px;
+}
+
+hr{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+b{
+	font-size: 18px;
+}
+
+#wrapper{
+min-height: 500px;
+	width: 100%;
+	margin:0px;
+	border:0px;
+	padding:0px;
+}
+
+/*Start Home*/
+#home{
+	width: 100%;
+	background-image: url(../images/Home-Background-7.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: -10px;
+	padding-top:10px;
+	max-height:650px;
+	z-index: 1;
+}
+
+#logo{
+	height:auto;
+	width:200px;
+	margin-top: -10px;
+	float:left;
+	margin-left:10px;
+}
+
+#links{
+	width: 100%;
+	border: solid 1px transparent;
+	text-align: right;
+	font-size: 14px;
+	padding-top: 20px;
+	font-family: 'Fjord One', serif;
+
+}
+
+.link-group{
+	font-family: 'Fjord One', serif;
+
+}
+
+#links a{
+	color: rgba(255,255,255,0.8);
+	text-decoration: none;
+	font-weight:bolder;
+	
+}
+
+#links a:hover{
+	color: #bd4f3e;
+}
+
+.all_links{
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 1px 5px;
+}
+
+p#about_PT{
+	border: solid 1px transparent;
+	width: 87.5%;
+	text-align: right;
+	color: rgba(255,255,255,0.8);
+	margin-top: 13%;
+	padding-bottom: 20%;
+	font-family: 'Amaranth', sans-serif;
+	font-style:italics;
+}
+
+p#about_PT #text{
+	font-style:italic;
+}
+
+.emphasis{
+	color:lightsalmon;
+}
+.emphasis-dark{
+	color:#BD4F3E;
+}
+
+span#hero_pertech{
+	font-size: 50px;
+	font-family: 'Abril Fatface', cursive;
+	font-weight:normal;
+}
+
+/*End Home*/
+
+/*Start Services*/
+#this_page{
+	text-align: center;
+}
+
+#links-2{
+	border: solid 1px transparent;
+	text-align: center;
+
+	position: relative;
+	height: 70px;
+    
+}
+
+.all_links-2{
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 1px 5px;
+}
+
+#links-2 a{
+	color: #9c9b9b;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+}
+
+#web_design{
+	border: solid 1px transparent;
+	padding-bottom: 25%;
+	background-image: url(../images/Web-design-page.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: 3%;
+
+}
+
+.service-text{
+	border: solid 1px transparent;
+	margin-left: 6%;
+	letter-spacing: 0.02em;
+	line-height: 1.3em;
+	margin-top: 10%;
+}
+
+#programming{
+	border: solid 1px transparent;
+	padding-bottom: 25%;
+	background-image: url(../images/Programming-page.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: 3%;
+
+}
+
+
+#business_solutions{
+	border: solid 1px transparent;
+	padding-bottom: 25%;
+	background-image: url(../images/Business-page.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: right;
+	margin-top: 3%;
+
+}
+
+#Design_1{
+	margin-top: 5px;
+}
+
+.service-text-2{
+	border: solid 1px transparent;
+	margin-left: 6%;
+	float: right;
+	letter-spacing: 0.02em;
+	line-height: 1.3em;
+	margin-top: 10%;
+}
+
+#education{
+	border: solid 1px transparent;
+	padding-bottom: 25%;
+	background-image: url(../images/Education-page.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: left;
+	margin-top: 3%;
+
+}
+
+#engineering{
+	border: solid 1px transparent;
+	padding-bottom: 25%;
+	background-image: url(../images/Engineering-page.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: right;
+	margin-top: 3%;
+}
+
+/*End Services*/
+
+/*Start About Us*/
+#professionalism{
+	border: solid 1px transparent;
+	background-image: url(../images/about-us-image3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-bottom: 25%;
+	margin: 5% 0 2% 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.info_one{
+	border: solid 1px transparent;
+	width: 85%;
+	margin-right: 13%;
+	text-align: right;
+	color: rgba(255,255,255,0.8);
+}
+
+.info_two{
+	border: solid 1px transparent;
+	color: #bd4f3e;
+	width: 85%;
+	margin-top: 20%;
+	margin-left: 13%;
+	font-weight: 700;
+	font-size:20px;
+	font-family: 'Abril Fatface', cursive;
+}
+
+#quality{
+	border: solid 1px transparent;
+	background-image: url(../images/about-us-image4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-bottom: 25%;
+	margin: 5% 0 2% 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.info_four{
+	border: solid 1px transparent;
+	width: 85%;
+	margin-right: 13%;
+	text-align: right;
+	color: #bd4f3e;
+	font-weight: 700;
+	margin-top: 20%;
+	font-family: 'Abril Fatface', cursive;
+	font-size:20px;
+
+	
+}
+
+.info_three{
+	border: solid 1px transparent;
+	color: rgba(255,255,255,0.8);
+	width: 85%;
+	margin-left: 13%;
+}
+
+#performance{
+	border: solid 1px transparent;
+	background-image: url(../images/about-us-image3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-bottom: 25%;
+	margin: 5% 0 2% 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*End About Us*/
+
+/*Blog Page*/
+#left_panel{
+	border: solid 1px transparent;
+	width: 20%;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+#right_panel{
+	border: solid 1px transparent;
+	width: 70%;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding-left: 1%; 
+	color: rgba(0,0,0,.7);
+}
+
+span#posts{
+	color: rgba(51,51,51,.9);
+}
+ul.related_posts li{
+	list-style: decimal;
+	font-size: 15px;
+	color: rgba(51,51,51,0.8);
+}
+/*End Blog Page*/
+
+/*Start Footer*/
+footer{
+	background-image: url(../images/footer-image.jpg);
+	background-repeat: no-repeat;
+	min-height: 140px;
+	padding: 0 0 0 0;
+	margin-top: 40px;
+	margin-bottom: 0;
+	margin-right:-10px;
+	
+}
+
+#part_one,
+#part_two,
+#part_three{
+	border: solid 1px transparent;
+}
+
+.footer-uni{
+	color: rgba(255,255,255,0.8);
+	font-size: 12px;
+	border: solid 1px transparent;
+	width: 28%;
+	float: left;
+	margin-top: 40px;
+	margin-left: 5%;
+}
+/*End Footer*/
+#services{
+z-index: 2;
+}
+#about_us{
+z-index: 3;
+}
+/*.fixed{
+position: fixed;
+top: 0;
+left: 0;
+}*/
+
+
+/* shit that went south ndio hawa*/
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  color: #9c9b9b;
+}
+
+#body_div {
+  top: 0;
+  position: relative;
+  height: 200px;
+  background-color: green;
+}
+
+/*#nav_bar {
+  border: 0;
+  background-color: #202020;
+  border-radius: 0px;
+  margin-bottom: 0;
+  height: 30px;
+}*/
+
+/*the below css are for the links, not needed for sticky nav*/
+.nav_links {
+  margin: 0;
+  	border: solid 1px transparent;
+	text-align: center;
+	color: #9c9b9b;
+	position: relative;
+	height: 70px;
+}
+
+.nav_links li {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.nav_links a {
+  padding: 0 15.5px;
+	color: #bd4f3e;
+  
+  text-decoration: none;
+}
+
+
+
+
+
+
